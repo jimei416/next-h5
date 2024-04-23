@@ -1,0 +1,44 @@
+.page {
+  height: calc(100% - 20px);
+  background: rgb(45, 45, 45);
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin: 10px 0;
+}
+.space {
+  display: flex;
+  align-content: center;
+  margin-top: 10px;
+
+  gap: 10px;
+
+  > div {
+    margin-bottom: 0;
+  }
+}
+.form {
+  max-height: 400px;
+
+  overflow-y: auto;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  position: relative;
+  > div {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.uItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
